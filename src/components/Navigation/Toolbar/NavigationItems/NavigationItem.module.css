@@ -1,0 +1,34 @@
+ /* Global  */
+ /* Global  End*/
+ /* Desktop  */
+ .NavigationItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-flow: column;
+  float: right;
+}
+@media (min-width: 700px) {
+  .NavigationItems {
+    flex-flow: row;
+  }
+}
+ /* Desktop End*/
+ /* Tab/iPad  */
+ /* Tab/iPad End*/
+ /* Mobile  */
+ @media (max-width: 699px) {
+  .NavigationItems {
+    align-items: flex-start;
+    float: left;
+    margin-top: 15px;
+  }
+}
+ /* Mobile End*/
+
+
+
+

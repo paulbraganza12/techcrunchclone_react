@@ -1,0 +1,17 @@
+/* Global  */
+.feedContainer {
+  display: -webkit-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/* Global  End*/
+/* Desktop  */
+/* Desktop End*/
+/* Tab/iPad  */
+/* Tab/iPad End*/
+/* Mobile  */
+/* Mobile End*/

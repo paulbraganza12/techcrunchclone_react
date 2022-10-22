@@ -1,0 +1,25 @@
+ /* Global  */
+ .LogoText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.LogoText a{
+  text-decoration: none;
+  color: #000000;
+}
+ /* Global  End*/
+ /* Desktop  */
+
+ /* Desktop End*/
+ /* Tab/iPad  */
+ @media (max-width: 871px) and (min-width: 699px) {
+  .LogoText {
+    font-size: 15px;
+  }
+ }
+ /* Tab/iPad End*/
+ /* Mobile  */
+ 
+ /* Mobile End*/

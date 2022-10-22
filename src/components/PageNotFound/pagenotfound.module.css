@@ -1,0 +1,23 @@
+/* Global  */
+.PageNotFound{
+    display: grid;
+    place-items: center;
+    height: 50vh;
+}
+.PageNotFound .text{
+    font-size: 30px;
+    font-weight: 100;
+    color: #8e8e8e;
+}
+/* Global  End*/
+/* Desktop  */
+/* Desktop End*/
+/* Tab/iPad  */
+/* Tab/iPad End*/
+/* Mobile  */
+@media (max-width: 651px) {
+    .PageNotFound .text{
+        font-size: 20px;
+    }
+}
+/* Mobile End*/
